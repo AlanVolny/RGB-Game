@@ -202,7 +202,7 @@ def play_round(level_name, elems, n_guesses):
 		#clear the screen
 		print('\x1B[2J\x1B[H')
 
-		banner = '%s:\n%d elements left\n%d/%d correct guesses to go' % (level_name, len(elems)-1-e_ind, n_guesses-cur_correct, n_guesses)
+		banner = '%s:\n%d lines left\n%d/%d correct guesses to go' % (level_name, len(elems)-1-e_ind, n_guesses-cur_correct, n_guesses)
 
 		print(banner)
 
